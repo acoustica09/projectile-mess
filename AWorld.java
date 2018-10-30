@@ -23,6 +23,7 @@ public class AWorld extends World {
      * 
      */
     private void setUp() {
+        addObject(new Projector(), 50 , 585);
         addObject(new Target(), Greenfoot.getRandomNumber(700) + 50, 585);
     }
 }

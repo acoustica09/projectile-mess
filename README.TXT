@@ -6,7 +6,7 @@ AUTHORS: CCMTP
 USER INSTRUCTIONS:
 
 Member Classes:
--Marlene Inoue: AWorld, Target
+-Marlene Inoue: AWorld, Target, Projector
 -Chandler Clarke: Projectile_1 and Projectile_1End
 -Tyler Bakeman: Projectile_2 and Projectile_2End
 -Camille Otillio: Projectile_3 and Projectile_3End
