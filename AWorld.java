@@ -15,6 +15,14 @@ public class AWorld extends World {
      */
     public AWorld() {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(800, 600, 1); 
+        super(800, 600, 1);
+        setUp();
+    }
+    
+    /**
+     * 
+     */
+    private void setUp() {
+        addObject(new Target(), Greenfoot.getRandomNumber(700) + 50, 585);
     }
 }
