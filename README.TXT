@@ -10,7 +10,7 @@ USER INSTRUCTIONS: Press "e" for the top left projector,
 '
 Member Classes:
 -Marlene Inoue: AWorld, Target, Projector
--Chandler Clarke: Projectile_1 and Projectile_1End
+-Chandler Clarke: Projectile_1, Projectile_1End, and Explosion
 -Tyler Bakeman: Projectile_2 and Projectile_2End
 -Camille Otillio: Projectile_3 and Projectile_3End
 -Philip Jepkes: Projectile_4 and Projectile_4End

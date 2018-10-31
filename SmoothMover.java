@@ -12,24 +12,24 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
  */
 public abstract class SmoothMover extends Actor {
     private Vector velocity;
-    
+
     private double exactX;
     private double exactY;
-    
+
     /**
      * Default constructor.
      */
     public SmoothMover() {
         this(new Vector());
     }
-    
+
     /**
      * Create new Mover initialised with given velocity.
      */
     public SmoothMover(Vector velocity) {
         this.velocity = velocity;
     }
-    
+
     /**
      * Move in the direction of the velocity vector. This simulates movement in one 
      * time unit (dt==1).
@@ -48,7 +48,7 @@ public abstract class SmoothMover extends Actor {
         exactY = y;
         super.setLocation((int) x, (int) y);
     }
-    
+
     /**
      * Set the location of this actor. Redefinition of the standard Greenfoot 
      * method to make sure the exact co-ordinates are updated in sync.
@@ -79,7 +79,7 @@ public abstract class SmoothMover extends Actor {
     public void addToVelocity(Vector boost) {
         velocity.add(boost);
     }
-    
+
     /**
      * Accelerate the speed of this mover by the given factor. (Factors less than 1 will
      * decelerate.) The direction remains unchanged.
@@ -91,21 +91,21 @@ public abstract class SmoothMover extends Actor {
             velocity.setNeutral();
         }
     }
-    
+
     /**
      * Return the speed of this actor.
      */
     public double getSpeed() {
         return velocity.getLength();
     }
-    
+
     /**
      * Revert velocity horizontally.
      */
     public void invertHorizontalVelocity() {
         velocity.revertHorizontal();
     }
-    
+
     /**
      * Revert velocity vertically.
      */

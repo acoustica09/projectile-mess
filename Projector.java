@@ -20,7 +20,7 @@ public class Projector extends Actor {
             int angle = getRotation() - 36; // adjust angle for image
 
             AWorld world = (AWorld) getWorld();
-            Projectile_1 ball = new Projectile_1(new Vector(angle, 9));
+            Projectile_1 ball = new Projectile_1(new Vector(angle, 20));
             getWorld().addObject(ball, world.getChandlerX(), world.getChandlerY());
             ball.setRotation(angle);
             ball.move(42); // clear the cannon barrel
