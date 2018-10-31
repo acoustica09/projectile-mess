@@ -9,11 +9,18 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Projectile_1 extends SmoothMover
 {
     /**
+     * 
+     */
+    public Projectile_1(Vector velocity) {
+        super(velocity);
+    }
+    /**
      * Act - do whatever the Projectile_1 wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-        // Add your action code here.
+        addToVelocity(AWorld.GRAVITY);
+        move();
     }    
 }

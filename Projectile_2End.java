@@ -3,7 +3,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class Projectile_2End here.
  * 
- * @author Tyler Bakeman
+ * @author Philip Jepkes
  * @version (a version number or a date)
  */
 public class Projectile_2End extends Actor
